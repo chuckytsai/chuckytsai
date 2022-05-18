@@ -1,0 +1,106 @@
+#Content {
+    background: url("../icon/bule.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    border-radius: 0.6rem;
+    font-weight: bold;
+    position: absolute;
+    line-height: 2rem;
+    padding-bottom: 20px;
+}
+
+.SensorGroup {
+    display: flex;
+    margin: 0 25px;
+    width: 150px;
+    padding-right: 25px;
+}
+
+.SensorGroup:hover {
+    background-color: rgb(246, 249, 249, 0.3);
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.SensorGroup:active {
+    background-color: rgb(246, 249, 249, 0.7);
+    border: 2px double gray;
+    width: 148px;
+    margin-bottom: -2px;
+}
+
+.ReportGroups {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    position: relative;
+}
+
+.GroupImg {
+    height: 40px;
+}
+
+.GroupState {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+.StatusNormal {
+    color: #654b4b;
+    text-shadow: 0.1em 0.05em white;
+}
+
+.StatusSafe {
+    color: #f5fd07;
+    text-shadow: 0.1em 0.05em rgb(64, 75, 6);
+}
+
+.StatusDanger {
+    color: #f60707;
+    text-shadow: 0.1em 0.05em rgb(197, 154, 154);
+}
+
+.ReportLabel {
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.ReportLabel div {
+    width: 50%;
+    height: 35px;
+    line-height: 35px;
+}
+
+.FaceIcon {
+    width: 20px;
+    position: absolute;
+    margin-top: 10px;
+    right: -15px;
+}
+
+.ActiveReportGroups .FaceIcon {
+    animation: swing 2s cubic-bezier(0.1, 0.1, 0.45, 0.2) infinite;
+}
+
+@keyframes swing {
+    0% {
+        transform: rotateZ(-45deg);
+    }
+    50% {
+        transform: rotateZ(45deg);
+    }
+    100% {
+        transform: rotateZ(-45deg);
+    }
+}
+
+.ActiveReportGroups .GroupState {
+    font-size: 20px;
+}

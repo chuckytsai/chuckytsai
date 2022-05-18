@@ -1,0 +1,70 @@
+{
+    "Data": [
+        {
+            "id": 0,
+            "name": "TEP",
+            "img": "temperature",
+            "unit": "℃",
+            "value1": 10,
+            "value2": 20,
+            "value3": 30,
+            "value4": 40,
+            "value5": 50
+        },
+        {
+            "id": 1,
+            "name": "HUM",
+            "img": "humidity",
+            "unit": "%",
+            "value1": 50,
+            "value2": 60,
+            "value3": 70,
+            "value4": 80,
+            "value5": 90
+        },
+        {
+            "id": 2,
+            "name": "PM25",
+            "img": "pm2.5",
+            "unit": "ug/m³",
+            "value1": 35,
+            "value2": 53,
+            "value3": 58,
+            "value4": 71,
+            "value5": 100
+        },
+        {
+            "id": 3,
+            "name": "HCHO",
+            "img": "hcho",
+            "unit": "ppm",
+            "value1": 0.1,
+            "value2": 0.5,
+            "value3": 1,
+            "value4": 2,
+            "value5": 2
+        },
+        {
+            "id": 4,
+            "name": "CO2",
+            "img": "co2",
+            "unit": "ppm",
+            "value1": 1000,
+            "value2": 1200,
+            "value3": 1600,
+            "value4": 2000,
+            "value5": 3000
+        },
+        {
+            "id": 5,
+            "name": "O3",
+            "img": "o3",
+            "unit": "ppm",
+            "value1": 0.164,
+            "value2": 0.204,
+            "value3": 0.404,
+            "value4": 0.504,
+            "value5": 0.604
+        }
+    ]
+}
